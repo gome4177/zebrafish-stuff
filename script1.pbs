@@ -1,0 +1,5 @@
+#!/bin/sh
+
+cd $PBS_O_WORKDIR
+
+./a.out  $PBS_ARRAYID  
